@@ -1,5 +1,66 @@
 [
   {
+    "category": "英语课下课",
+    "conversations": [
+      {
+        "english": "Hi Mrs. [Neighbor's Last Name], how are you?",
+        "chinese": "你好[邻居姓氏]太太，您好吗？"
+      },
+      {
+        "english": "Hello! I'm doing well, thank you. How are you?",
+        "chinese": "你好！我很好，谢谢。你呢？"
+      },
+      {
+        "english": "I'm good, thanks. How did the lesson go today?",
+        "chinese": "我很好，谢谢。今天的课上得怎么样？"
+      },
+      {
+        "english": "It went really well! Your daughter is improving so much. We practiced some new vocabulary today.",
+        "chinese": "上得很好！你女儿进步很大。我们今天练习了一些新词汇。"
+      },
+      {
+        "english": "That's great to hear! Thank you for teaching her.",
+        "chinese": "听到这个真是太好了！谢谢你教她。"
+      },
+      {
+        "english": "What did she learn today?",
+        "chinese": "她今天学了什么？"
+      },
+      {
+        "english": "We went over some simple sentences and practiced speaking about daily activities. She did really well with pronunciation.",
+        "chinese": "我们复习了一些简单的句子，并练习了关于日常活动的口语。她的发音做得很好。"
+      },
+      {
+        "english": "That sounds wonderful! Is there anything she should work on more at home?",
+        "chinese": "听起来很棒！有什么她需要在家多练习的吗？"
+      },
+      {
+        "english": "Yes, maybe review the new words we learned today and practice using them in sentences.",
+        "chinese": "是的，也许可以复习我们今天学的新单词，并练习在句子中使用它们。"
+      },
+      {
+        "english": "Thank you so much for helping her with English. She really enjoys the lessons.",
+        "chinese": "非常感谢你帮助她学习英语。她真的很喜欢这些课程。"
+      },
+      {
+        "english": "It's my pleasure! She's a bright girl and always eager to learn.",
+        "chinese": "这是我的荣幸！她是个聪明的女孩，总是渴望学习。"
+      },
+      {
+        "english": "Well, we'll head home now. Thanks again, and see you next time!",
+        "chinese": "好的，我们现在要回家了。再次感谢，下次见！"
+      },
+      {
+        "english": "You're very welcome! Have a good evening, and see you soon!",
+        "chinese": "不客气！祝你晚上愉快，再见！"
+      },
+      {
+        "english": "You too! Bye!",
+        "chinese": "你也是！再见！"
+      }
+    ]
+  },
+  {
     "category": "问候与介绍",
     "conversations": [
       {
