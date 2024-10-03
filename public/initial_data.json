@@ -1,0 +1,252 @@
+[
+  {
+    "category": "问候与介绍",
+    "conversations": [
+      {
+        "english": "Hi, how are you?",
+        "chinese": "嗨，你好吗？"
+      },
+      {
+        "english": "Good morning! How's everything?",
+        "chinese": "早上好！一切都好吗？"
+      },
+      {
+        "english": "What's your name?",
+        "chinese": "你叫什么名字？"
+      },
+      {
+        "english": "It's nice to meet you.",
+        "chinese": "很高兴认识你。"
+      },
+      {
+        "english": "Where are you from?",
+        "chinese": "你来自哪里？"
+      }
+    ]
+  },
+  {
+    "category": "闲聊",
+    "conversations": [
+      {
+        "english": "How's the weather today?",
+        "chinese": "今天天气怎么样？"
+      },
+      {
+        "english": "What do you do for fun?",
+        "chinese": "你平时做什么娱乐？"
+      },
+      {
+        "english": "Did you have a good weekend?",
+        "chinese": "你周末过得愉快吗？"
+      },
+      {
+        "english": "Have you seen any good movies lately?",
+        "chinese": "你最近看过什么好电影吗？"
+      },
+      {
+        "english": "What are your plans for tonight?",
+        "chinese": "你今晚有什么安排？"
+      }
+    ]
+  },
+  {
+    "category": "寻求帮助",
+    "conversations": [
+      {
+        "english": "Can you help me with this?",
+        "chinese": "你能帮我解决这个问题吗？"
+      },
+      {
+        "english": "Could you show me how to do this?",
+        "chinese": "你能教我怎么做这个吗？"
+      },
+      {
+        "english": "Excuse me, could you tell me where the nearest coffee shop is?",
+        "chinese": "打扰一下，你能告诉我最近的咖啡店在哪里吗？"
+      },
+      {
+        "english": "Can I ask for a favor?",
+        "chinese": "我能请你帮个忙吗？"
+      },
+      {
+        "english": "What time is it?",
+        "chinese": "现在几点了？"
+      }
+    ]
+  },
+  {
+    "category": "购物",
+    "conversations": [
+      {
+        "english": "How much does this cost?",
+        "chinese": "这个多少钱？"
+      },
+      {
+        "english": "Do you have this in a different size?",
+        "chinese": "你们有其他尺码吗？"
+      },
+      {
+        "english": "Can I pay by card?",
+        "chinese": "我可以刷卡吗？"
+      },
+      {
+        "english": "Is this on sale?",
+        "chinese": "这个在打折吗？"
+      },
+      {
+        "english": "Where is the checkout counter?",
+        "chinese": "收银台在哪里？"
+      }
+    ]
+  },
+  {
+    "category": "点餐",
+    "conversations": [
+      {
+        "english": "I'd like a coffee, please.",
+        "chinese": "我想要一杯咖啡，谢谢。"
+      },
+      {
+        "english": "Can I see the menu, please?",
+        "chinese": "我能看一下菜单吗？"
+      },
+      {
+        "english": "I'll have the special.",
+        "chinese": "我要今日特餐。"
+      },
+      {
+        "english": "Could you bring the bill?",
+        "chinese": "你能把账单拿来吗？"
+      },
+      {
+        "english": "Is this dish spicy?",
+        "chinese": "这道菜辣吗？"
+      }
+    ]
+  },
+  {
+    "category": "旅行与方向",
+    "conversations": [
+      {
+        "english": "Can you tell me how to get to the train station?",
+        "chinese": "你能告诉我怎么去火车站吗？"
+      },
+      {
+        "english": "Is this the right bus for downtown?",
+        "chinese": "这辆公交车去市中心吗？"
+      },
+      {
+        "english": "How far is it from here?",
+        "chinese": "从这里到那里有多远？"
+      },
+      {
+        "english": "Should I take a taxi or walk?",
+        "chinese": "我应该打车还是步行？"
+      },
+      {
+        "english": "What's the best way to get to the airport?",
+        "chinese": "去机场最好的方式是什么？"
+      }
+    ]
+  },
+  {
+    "category": "制定计划",
+    "conversations": [
+      {
+        "english": "Are you free this weekend?",
+        "chinese": "这个周末你有空吗？"
+      },
+      {
+        "english": "Let's meet at 7 p.m.",
+        "chinese": "我们晚上7点见面吧。"
+      },
+      {
+        "english": "Do you want to grab dinner together?",
+        "chinese": "你想一起吃晚饭吗？"
+      },
+      {
+        "english": "How about we go to the park tomorrow?",
+        "chinese": "我们明天去公园怎么样？"
+      },
+      {
+        "english": "Can we reschedule for next week?",
+        "chinese": "我们能改到下周吗？"
+      }
+    ]
+  },
+  {
+    "category": "日常生活",
+    "conversations": [
+      {
+        "english": "I wake up at 6 a.m. every day.",
+        "chinese": "我每天早上6点起床。"
+      },
+      {
+        "english": "I need to pick up some groceries after work.",
+        "chinese": "我下班后需要买些杂货。"
+      },
+      {
+        "english": "What time do you usually go to bed?",
+        "chinese": "你通常几点睡觉？"
+      },
+      {
+        "english": "Do you want to go for a walk after dinner?",
+        "chinese": "晚饭后你想去散步吗？"
+      },
+      {
+        "english": "I'll meet you at the gym at 5 p.m.",
+        "chinese": "我下午5点在健身房等你。"
+      }
+    ]
+  },
+  {
+    "category": "工作场合",
+    "conversations": [
+      {
+        "english": "Can you send me the report by email?",
+        "chinese": "你能通过邮件发送报告给我吗？"
+      },
+      {
+        "english": "Let's schedule a meeting for tomorrow.",
+        "chinese": "我们安排明天开会吧。"
+      },
+      {
+        "english": "What's the deadline for this project?",
+        "chinese": "这个项目的截止日期是什么时候？"
+      },
+      {
+        "english": "Can you help me with this presentation?",
+        "chinese": "你能帮我准备这个演示吗？"
+      },
+      {
+        "english": "Let's take a break for lunch.",
+        "chinese": "我们休息一下吃午饭吧。"
+      }
+    ]
+  },
+  {
+    "category": "电话交谈",
+    "conversations": [
+      {
+        "english": "Hello, can I speak to John, please?",
+        "chinese": "你好，我能和John通话吗？"
+      },
+      {
+        "english": "Sorry, I didn't catch that. Could you repeat it?",
+        "chinese": "抱歉，我没听清。你能再说一遍吗？"
+      },
+      {
+        "english": "Can you call me back in five minutes?",
+        "chinese": "你能在五分钟后回我电话吗？"
+      },
+      {
+        "english": "I'll send you the details via text.",
+        "chinese": "我会通过短信发送详细信息给你。"
+      },
+      {
+        "english": "Thanks for your call, talk to you soon!",
+        "chinese": "谢谢你的来电，回头再聊！"
+      }
+    ]
+  }
+]

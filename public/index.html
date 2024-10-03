@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日英语对话</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .conversation {
+            margin-bottom: 20px;
+        }
+        .english, .chinese {
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .english {
+            background-color: #e6f3ff;
+            margin-bottom: 5px;
+        }
+        .chinese {
+            background-color: #fff0f0;
+        }
+        button, select {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover, select:hover {
+            background-color: #3498db;
+        }
+        select {
+            background-color: #3498db;
+        }
+        .trumpet {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>每日英语对话</h1>
+        <select id="category-select" aria-label="选择对话类别"></select>
+        <div id="conversation-container"></div>
+    </div>
+
+    <script>
+        const conversationContainer = document.getElementById('conversation-container');
+        const categorySelect = document.getElementById('category-select');
+
+        let conversations = [];
+
+        // 从initial_data.json读取数据
+        fetch('initial_data.json')
+            .then(response => response.json())
+            .then(data => {
+                conversations = data;
+                populateCategorySelect();
+                // 初始加载一个对话
+                displayConversation(getRandomConversation());
+            })
+            .catch(error => console.error('加载数据出错:', error));
+
+        function populateCategorySelect() {
+            conversations.forEach((conversation, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = conversation.category;
+                categorySelect.appendChild(option);
+            });
+        }
+
+        function displayConversation(conversation) {
+            conversationContainer.innerHTML = '';
+            conversation.conversations.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'conversation';
+                div.innerHTML = `
+                    <div class="english">
+                        <span class="trumpet" onclick="speak('${item.english.replace(/'/g, "\\'")}', 'en')">🔊</span>
+                        ${item.english}
+                    </div>
+                    <div class="chinese">
+                        <span class="trumpet" onclick="speak('${item.chinese.replace(/'/g, "\\'")}', 'zh')">🔊</span>
+                        ${item.chinese}
+                    </div>
+                `;
+                conversationContainer.appendChild(div);
+            });
+        }
+
+        function getRandomConversation() {
+            const randomIndex = Math.floor(Math.random() * conversations.length);
+            categorySelect.value = randomIndex;
+            return conversations[randomIndex];
+        }
+
+        categorySelect.addEventListener('change', () => {
+            const selectedIndex = categorySelect.value;
+            displayConversation(conversations[selectedIndex]);
+        });
+
+        function speak(text, lang) {
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = lang;
+            window.speechSynthesis.speak(utterance);
+        }
+    </script>
+</body>
+</html>
