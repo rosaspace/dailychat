@@ -33,11 +33,10 @@
             display: flex;
             align-items: center;
         }
-        .english {
+        .english.role-A, .chinese.role-A {
             background-color: #e6f3ff;
-            margin-bottom: 5px;
         }
-        .chinese {
+        .english.role-B, .chinese.role-B {
             background-color: #fff0f0;
         }
         button, select {
@@ -102,11 +101,11 @@
                 const div = document.createElement('div');
                 div.className = 'conversation';
                 div.innerHTML = `
-                    <div class="english">
+                    <div class="english role-${item.role}">
                         <span class="trumpet" onclick="speak('${item.english.replace(/'/g, "\\'")}', 'en')">🔊</span>
                         ${item.english}
                     </div>
-                    <div class="chinese">
+                    <div class="chinese role-${item.role}">
                         <span class="trumpet" onclick="speak('${item.chinese.replace(/'/g, "\\'")}', 'zh')">🔊</span>
                         ${item.chinese}
                     </div>

@@ -4,59 +4,73 @@
     "conversations": [
       {
         "english": "Hi Mrs. [Neighbor's Last Name], how are you?",
-        "chinese": "你好[邻居姓氏]太太，您好吗？"
+        "chinese": "你好[邻居姓氏]太太，您好吗？",
+        "role": "A"
       },
       {
         "english": "Hello! I'm doing well, thank you. How are you?",
-        "chinese": "你好！我很好，谢谢。你呢？"
+        "chinese": "你好！我很好，谢谢。你呢？",
+        "role": "B"
       },
       {
         "english": "I'm good, thanks. How did the lesson go today?",
-        "chinese": "我很好，谢谢。今天的课上得怎么样？"
+        "chinese": "我很好，谢谢。今天的课上得怎么样？",
+        "role": "A"
       },
       {
         "english": "It went really well! Your daughter is improving so much. We practiced some new vocabulary today.",
-        "chinese": "上得很好！你女儿进步很大。我们今天练习了一些新词汇。"
+        "chinese": "上得很好！你女儿进步很大。我们今天练习了一些新词汇。",
+        "role": "B"
       },
       {
         "english": "That's great to hear! Thank you for teaching her.",
-        "chinese": "听到这个真是太好了！谢谢你教她。"
+        "chinese": "听到这个真是太好了！谢谢你教她。",
+        "role": "A"
       },
       {
         "english": "What did she learn today?",
-        "chinese": "她今天学了什么？"
+        "chinese": "她今天学了什么？",
+        "role": "A"
       },
       {
         "english": "We went over some simple sentences and practiced speaking about daily activities. She did really well with pronunciation.",
-        "chinese": "我们复习了一些简单的句子，并练习了关于日常活动的口语。她的发音做得很好。"
+        "chinese": "我们复习了一些简单的句子，并练习了关于日常活动的口语。她的发音做得很好。",
+        "role": "B"
       },
       {
         "english": "That sounds wonderful! Is there anything she should work on more at home?",
-        "chinese": "听起来很棒！有什么她需要在家多练习的吗？"
+        "chinese": "听起来很棒！有什么她需要在家多练习的吗？",
+        "role": "A"
       },
       {
         "english": "Yes, maybe review the new words we learned today and practice using them in sentences.",
-        "chinese": "是的，也许可以复习我们今天学的新单词，并练习在句子中使用它们。"
+        "chinese": "是的，也许可以复习我们今天学的新单词，并练习在句子中使用它们。",
+        "role": "B"
       },
       {
         "english": "Thank you so much for helping her with English. She really enjoys the lessons.",
-        "chinese": "非常感谢你帮助她学习英语。她真的很喜欢这些课程。"
+        "chinese": "非常感谢你帮助她学习英语。她真的很喜欢这些课程。",
+        "role": "A"
       },
       {
         "english": "It's my pleasure! She's a bright girl and always eager to learn.",
-        "chinese": "这是我的荣幸！她是个聪明的女孩，总是渴望学习。"
+        "chinese": "这是我的荣幸！她是个聪明的女孩，总是渴望学习。",
+        "role": "B"
       },
       {
         "english": "Well, we'll head home now. Thanks again, and see you next time!",
-        "chinese": "好的，我们现在要回家了。再次感谢，下次见！"
+        "chinese": "好的，我们现在要回家了。再次感谢，下次见！",
+        "role": "A"
       },
       {
         "english": "You're very welcome! Have a good evening, and see you soon!",
-        "chinese": "不客气！祝你晚上愉快，再见！"
+        "chinese": "不客气！祝你晚上愉快，再见！",
+        "role": "B"
       },
       {
         "english": "You too! Bye!",
-        "chinese": "你也是！再见！"
+        "chinese": "你也是！再见！",
+        "role": "A"
       }
     ]
   },
@@ -65,23 +79,33 @@
     "conversations": [
       {
         "english": "Hi, how are you?",
-        "chinese": "嗨，你好吗？"
+        "chinese": "嗨，你好吗？",
+        "role": "A"
       },
       {
         "english": "Good morning! How's everything?",
-        "chinese": "早上好！一切都好吗？"
+        "chinese": "早上好！一切都好吗？",
+        "role": "B"
       },
       {
         "english": "What's your name?",
-        "chinese": "你叫什么名字？"
+        "chinese": "你叫什么名字？",
+        "role": "A"
       },
       {
         "english": "It's nice to meet you.",
-        "chinese": "很高兴认识你。"
+        "chinese": "很高兴认识你。",
+        "role": "B"
+      },
+      {
+        "english": "It's nice to meet you too.",
+        "chinese": "很高兴认识你。",
+        "role": "A"
       },
       {
         "english": "Where are you from?",
-        "chinese": "你来自哪里？"
+        "chinese": "你来自哪里？",
+        "role": "B"
       }
     ]
   },
@@ -90,23 +114,28 @@
     "conversations": [
       {
         "english": "How's the weather today?",
-        "chinese": "今天天气怎么样？"
+        "chinese": "今天天气怎么样？",
+        "role": "A"
       },
       {
         "english": "What do you do for fun?",
-        "chinese": "你平时做什么娱乐？"
+        "chinese": "你平时做什么娱乐？",
+        "role": "B"
       },
       {
         "english": "Did you have a good weekend?",
-        "chinese": "你周末过得愉快吗？"
+        "chinese": "你周末过得愉快吗？",
+        "role": "A"
       },
       {
         "english": "Have you seen any good movies lately?",
-        "chinese": "你最近看过什么好电影吗？"
+        "chinese": "你最近看过什么好电影吗？",
+        "role": "B"
       },
       {
         "english": "What are your plans for tonight?",
-        "chinese": "你今晚有什么安排？"
+        "chinese": "你今晚有什么安排？",
+        "role": "A"
       }
     ]
   },
@@ -115,23 +144,28 @@
     "conversations": [
       {
         "english": "Can you help me with this?",
-        "chinese": "你能帮我解决这个问题吗？"
+        "chinese": "你能帮我解决这个问题吗？",
+        "role": "A"
       },
       {
         "english": "Could you show me how to do this?",
-        "chinese": "你能教我怎么做这个吗？"
+        "chinese": "你能教我怎么做这个吗？",
+        "role": "B"
       },
       {
         "english": "Excuse me, could you tell me where the nearest coffee shop is?",
-        "chinese": "打扰一下，你能告诉我最近的咖啡店在哪里吗？"
+        "chinese": "打扰一下，你能告诉我最近的咖啡店在哪里吗？",
+        "role": "A"
       },
       {
         "english": "Can I ask for a favor?",
-        "chinese": "我能请你帮个忙吗？"
+        "chinese": "我能请你帮个忙吗？",
+        "role": "B"
       },
       {
         "english": "What time is it?",
-        "chinese": "现在几点了？"
+        "chinese": "现在几点了？",
+        "role": "A"
       }
     ]
   },
@@ -140,23 +174,28 @@
     "conversations": [
       {
         "english": "How much does this cost?",
-        "chinese": "这个多少钱？"
+        "chinese": "这个多少钱？",
+        "role": "A"
       },
       {
         "english": "Do you have this in a different size?",
-        "chinese": "你们有其他尺码吗？"
+        "chinese": "你们有其他尺码吗？",
+        "role": "B"
       },
       {
         "english": "Can I pay by card?",
-        "chinese": "我可以刷卡吗？"
+        "chinese": "我可以刷卡吗？",
+        "role": "A"
       },
       {
         "english": "Is this on sale?",
-        "chinese": "这个在打折吗？"
+        "chinese": "这个在打折吗？",
+        "role": "B"
       },
       {
         "english": "Where is the checkout counter?",
-        "chinese": "收银台在哪里？"
+        "chinese": "收银台在哪里？",
+        "role": "A"
       }
     ]
   },
@@ -165,23 +204,28 @@
     "conversations": [
       {
         "english": "I'd like a coffee, please.",
-        "chinese": "我想要一杯咖啡，谢谢。"
+        "chinese": "我想要一杯咖啡，谢谢。",
+        "role": "A"
       },
       {
         "english": "Can I see the menu, please?",
-        "chinese": "我能看一下菜单吗？"
+        "chinese": "我能看一下菜单吗？",
+        "role": "B"
       },
       {
         "english": "I'll have the special.",
-        "chinese": "我要今日特餐。"
+        "chinese": "我要今日特餐。",
+        "role": "A"
       },
       {
         "english": "Could you bring the bill?",
-        "chinese": "你能把账单拿来吗？"
+        "chinese": "你能把账单拿来吗？",
+        "role": "B"
       },
       {
         "english": "Is this dish spicy?",
-        "chinese": "这道菜辣吗？"
+        "chinese": "这道菜辣吗？",
+        "role": "A"
       }
     ]
   },
@@ -190,23 +234,28 @@
     "conversations": [
       {
         "english": "Can you tell me how to get to the train station?",
-        "chinese": "你能告诉我怎么去火车站吗？"
+        "chinese": "你能告诉我怎么去火车站吗？",
+        "role": "A"
       },
       {
         "english": "Is this the right bus for downtown?",
-        "chinese": "这辆公交车去市中心吗？"
+        "chinese": "这辆公交车去市中心吗？",
+        "role": "B"
       },
       {
         "english": "How far is it from here?",
-        "chinese": "从这里到那里有多远？"
+        "chinese": "从这里到那里有多远？",
+        "role": "A"
       },
       {
         "english": "Should I take a taxi or walk?",
-        "chinese": "我应该打车还是步行？"
+        "chinese": "我应该打车还是步行？",
+        "role": "B"
       },
       {
         "english": "What's the best way to get to the airport?",
-        "chinese": "去机场最好的方式是什么？"
+        "chinese": "去机场最好的方式是什么？",
+        "role": "A"
       }
     ]
   },
@@ -215,23 +264,28 @@
     "conversations": [
       {
         "english": "Are you free this weekend?",
-        "chinese": "这个周末你有空吗？"
+        "chinese": "这个周末你有空吗？",
+        "role": "A"
       },
       {
         "english": "Let's meet at 7 p.m.",
-        "chinese": "我们晚上7点见面吧。"
+        "chinese": "我们晚上7点见面吧。",
+        "role": "B"
       },
       {
         "english": "Do you want to grab dinner together?",
-        "chinese": "你想一起吃晚饭吗？"
+        "chinese": "你想一起吃晚饭吗？",
+        "role": "A"
       },
       {
         "english": "How about we go to the park tomorrow?",
-        "chinese": "我们明天去公园怎么样？"
+        "chinese": "我们明天去公园怎么样？",
+        "role": "B"
       },
       {
         "english": "Can we reschedule for next week?",
-        "chinese": "我们能改到下周吗？"
+        "chinese": "我们能改到下周吗？",
+        "role": "A"
       }
     ]
   },
@@ -240,23 +294,28 @@
     "conversations": [
       {
         "english": "I wake up at 6 a.m. every day.",
-        "chinese": "我每天早上6点起床。"
+        "chinese": "我每天早上6点起床。",
+        "role": "A"
       },
       {
         "english": "I need to pick up some groceries after work.",
-        "chinese": "我下班后需要买些杂货。"
+        "chinese": "我下班后需要买些杂货。",
+        "role": "B"
       },
       {
         "english": "What time do you usually go to bed?",
-        "chinese": "你通常几点睡觉？"
+        "chinese": "你通常几点睡觉？",
+        "role": "A"
       },
       {
         "english": "Do you want to go for a walk after dinner?",
-        "chinese": "晚饭后你想去散步吗？"
+        "chinese": "晚饭后你想去散步吗？",
+        "role": "B"
       },
       {
         "english": "I'll meet you at the gym at 5 p.m.",
-        "chinese": "我下午5点在健身房等你。"
+        "chinese": "我下午5点在健身房等你。",
+        "role": "A"
       }
     ]
   },
@@ -265,23 +324,28 @@
     "conversations": [
       {
         "english": "Can you send me the report by email?",
-        "chinese": "你能通过邮件发送报告给我吗？"
+        "chinese": "你能通过邮件发送报告给我吗？",
+        "role": "A"
       },
       {
         "english": "Let's schedule a meeting for tomorrow.",
-        "chinese": "我们安排明天开会吧。"
+        "chinese": "我们安排明天开会吧。",
+        "role": "B"
       },
       {
         "english": "What's the deadline for this project?",
-        "chinese": "这个项目的截止日期是什么时候？"
+        "chinese": "这个项目的截止日期是什么时候？",
+        "role": "A"
       },
       {
         "english": "Can you help me with this presentation?",
-        "chinese": "你能帮我准备这个演示吗？"
+        "chinese": "你能帮我准备这个演示吗？",
+        "role": "B"
       },
       {
         "english": "Let's take a break for lunch.",
-        "chinese": "我们休息一下吃午饭吧。"
+        "chinese": "我们休息一下吃午饭吧。",
+        "role": "A"
       }
     ]
   },
@@ -290,23 +354,28 @@
     "conversations": [
       {
         "english": "Hello, can I speak to John, please?",
-        "chinese": "你好，我能和John通话吗？"
+        "chinese": "你好，我能和John通话吗？",
+        "role": "A"
       },
       {
         "english": "Sorry, I didn't catch that. Could you repeat it?",
-        "chinese": "抱歉，我没听清。你能再说一遍吗？"
+        "chinese": "抱歉，我没听清。你能再说一遍吗？",
+        "role": "B"
       },
       {
         "english": "Can you call me back in five minutes?",
-        "chinese": "你能在五分钟后回我电话吗？"
+        "chinese": "你能在五分钟后回我电话吗？",
+        "role": "A"
       },
       {
         "english": "I'll send you the details via text.",
-        "chinese": "我会通过短信发送详细信息给你。"
+        "chinese": "我会通过短信发送详细信息给你。",
+        "role": "B"
       },
       {
         "english": "Thanks for your call, talk to you soon!",
-        "chinese": "谢谢你的来电，回头再聊！"
+        "chinese": "谢谢你的来电，回头再聊！",
+        "role": "A"
       }
     ]
   }
