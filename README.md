@@ -1,6 +1,6 @@
-# Learning English words for my daughter
+# Daily Chat
 
-Grade Four
+Learn English by myself
 
 ## initial_data.json
 
